@@ -34,16 +34,16 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
+$blue:    #262B48 !default;//藍色
+$indigo:  #7D75B2 !default;//紫色
+$purple:  #7ABFD6 !default;//淡藍色
+$pink:    #E4928A !default;//粉紅色
 $red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
+$orange:  #D4AB85 !default;//橙色
 $yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$green:   #79AD96 !default;//綠色
+$teal:    #242943 !default;//超級深藍色
+$cyan:    #7E97CF !default;//藍紫色
 
 $colors: () !default;
 $colors: map-merge((
