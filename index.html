@@ -23,11 +23,42 @@
             opacity: 0.8;
             z-index: -100;
         }
+        .header_bg_top{
+            height: 50vh;
+            background-color: rgb(69, 65, 100);
+    }
+        .small_inl{
+            display: inline;
+        }
+        .hr-box{
+            width: 100vh;
+            border-top: 1px solid rgb(255, 255, 255);
+        }
+        .hr-top{
+            width: 30vh;
+        }
+        .md-top{
+            height: 50vh;
+        }
+        .md-img-top{
+            height: 50vh;
+            max-width: 100%;
+            background-image: url('images/small1.jpeg'); 
+            background-position: center center;
+            background-attachment:local;
+            background-repeat: no-repeat;
+            background-size:cover;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .md-img-top2{
+            background-image: url('images/small2.jpeg'); 
+        }
     </style>
 </head>
 <body>
     <header class="header container-fluid text-white">
-    <div class="header_bg container-fluid" id="header_bg">
+    <div class="header_bg container-fluid">
         <div class="row">
         <div class="col-md-12 d-flex">
             <a href="#" class="mr-md-auto">FORTY BY PIXELARITY</a>
@@ -35,14 +66,30 @@
         </div>
         </div>
         <div class="row">
-        <div class="col-md-12">
-            <h1>Hi, my name is Forty</h1>
-            <hr>
-            <p class="small">A ALIQUET DIAM ALIQUAM INTEGER <br> AT CUBILIASED ALIQUAM LOREM DIS EGESTAS COMMODO.</p>
-            <div>GET STARTED</div>
+        <div class="col-md-12 text-center pt-md-6">
+            <h1 class="display-4">Hi, my name is Forty</h1>
+            <hr class="hr-box">
+            <p class="small small_inl">A ALIQUET DIAM ALIQUAM INTEGER <br> AT CUBILIASED ALIQUAM LOREM DIS EGESTAS COMMODO.</p>
+            <button type="button" class="btn btn-outline-white">GET STARTED</button>
         </div>
         </div>
     </div>
     </header>
+
+    <div class="container-fluid text-white md-top">
+        <div class="row">
+            <div class="col-md-4 md-img-top">
+                <div class="header_bg header_bg_top text-center py-md-7">
+                <h3>Contrary</h3>
+                <hr class="hr-box hr-top">
+                <p>Lorem Ipsum is not simply random text. </p>
+                </div>
+            </div>
+            <div class="col-md-8 md-img-top md-img-top2">
+
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
