@@ -23,10 +23,34 @@
             opacity: 0.8;
             z-index: -100;
         }
+        .header_bg_but{
+            height: 100vh;
+            background-color: #10173f;
+        }
         .header_bg_top{
             height: 50vh;
             background-color: rgb(69, 65, 100);
-    }
+        }
+        .header_bg_top2{
+            height: 50vh;
+            background-color: #E4928A;
+        }
+        .header_bg_top3{
+            height: 50vh;
+            background-color: #D4AB85;
+        }
+        .header_bg_top4{
+            height: 50vh;
+            background-color: #7E97CF;
+        }
+        .header_bg_top5{
+            height: 50vh;
+            background-color: rgb(133, 160, 103);
+        }
+        .header_bg_top6{
+            height: 50vh;
+            background-color: rgb(66, 72, 124);
+        }
         .small_inl{
             display: inline;
         }
@@ -54,6 +78,18 @@
         .md-img-top2{
             background-image: url('images/small2.jpeg'); 
         }
+        .md-img-top3{
+            background-image: url('images/small3.jpeg'); 
+        }
+        .md-img-top4{
+            background-image: url('images/small4.jpeg'); 
+        }
+        .md-img-top5{
+            background-image: url('images/small5.jpeg'); 
+        }
+        .md-img-top6{
+            background-image: url('images/small6.jpeg'); 
+        }
     </style>
 </head>
 <body>
@@ -76,7 +112,7 @@
     </div>
     </header>
 
-    <div class="container-fluid text-white md-top">
+    <div class="container-fluid text-white">
         <div class="row">
             <div class="col-md-4 md-img-top">
                 <div class="header_bg header_bg_top text-center py-md-7">
@@ -86,10 +122,91 @@
                 </div>
             </div>
             <div class="col-md-8 md-img-top md-img-top2">
-
+                <div class="header_bg header_bg_top2 text-center py-md-7">
+                    <h3>Lorem Ipsum</h3>
+                    <hr class="hr-box hr-top">
+                    <p>Aliquam nec commodo mauris, sed commodo quam. </p>
+                    </div>
             </div>
         </div>
     </div>
 
+    <div class="container-fluid text-white">
+        <div class="row">
+            <div class="col-md-8 md-img-top md-img-top3">
+                <div class="header_bg header_bg_top3 text-center py-md-7">
+                <h3>Contrary</h3>
+                <hr class="hr-box hr-top">
+                <p>Lorem Ipsum is not simply random text. </p>
+                </div>
+            </div>
+            <div class="col-md-4 md-img-top md-img-top4">
+                <div class="header_bg header_bg_top4 text-center py-md-7">
+                    <h3>Lorem Ipsum</h3>
+                    <hr class="hr-box hr-top">
+                    <p>Aliquam nec commodo mauris, sed commodo quam. </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white">
+        <div class="row">
+            <div class="col-md-6 md-img-top md-img-top5">
+                <div class="header_bg header_bg_top5 text-center py-md-7">
+                <h3>Contrary</h3>
+                <hr class="hr-box hr-top">
+                <p>Lorem Ipsum is not simply random text. </p>
+                </div>
+            </div>
+            <div class="col-md-6 md-img-top md-img-top6">
+                <div class="header_bg header_bg_top6 text-center py-md-7">
+                    <h3>Lorem Ipsum</h3>
+                    <hr class="hr-box hr-top">
+                    <p>Aliquam nec commodo mauris, sed commodo quam. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white header_bg_but">
+        <div class="row">
+            <div class="col-md-12 p-md-8 text-center">
+                <h3>Massa libero</h3>
+                <hr class="hr-box">
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. <br>
+                    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. <br>
+                    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                <button type="button" class="btn btn-outline-white">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white header_bg_but">
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">OK</button><button type="reset" class="btn btn-primary">reset</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
