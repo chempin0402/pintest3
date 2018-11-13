@@ -41,7 +41,7 @@ $pink:    #E4928A !default;//粉紅色
 $red:     #dc3545 !default;
 $orange:  #D4AB85 !default;//橙色
 $yellow:  #ffc107 !default;
-$green:   #79AD96 !default;//綠色
+$green:   #00ff8e !default;//#79AD96 !default;//綠色
 $teal:    #242943 !default;//超級深藍色
 $cyan:    #7E97CF !default;//藍紫色
 
@@ -221,7 +221,7 @@ $border-radius-lg:            .3rem !default;
 $border-radius-sm:            .2rem !default;
 
 $component-active-color:      $white !default;
-$component-active-bg:         theme-color("primary") !default;
+$component-active-bg:         theme-color("success") !default;
 
 $caret-width:                 .3em !default;
 
