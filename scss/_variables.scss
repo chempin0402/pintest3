@@ -130,7 +130,9 @@ $spacers: map-merge((
   5: ($spacer * 3),
   6: 100px,
   7: 50px,
-  8: 200px
+  8: 200px,
+  9: 20px,
+ 10: 30px
 ), $spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -173,7 +175,7 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 310px,
   md: 768px,
   lg: 992px,
   xl: 1200px
@@ -188,7 +190,7 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
+  sm: 274px,
   md: 720px,
   lg: 960px,
   xl: 1140px
