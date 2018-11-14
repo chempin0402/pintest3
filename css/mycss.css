@@ -1,0 +1,126 @@
+.header{
+            height: 100vh;
+            background-image: url('../images/top_bg.jpeg'); 
+            background-position: left top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .header_bg{
+            height: 100vh;
+            background-color: #262b48;
+            opacity: 0.8;
+            z-index: -100;
+        }
+        .header_bg_but{
+            
+            background-color: #10173f;
+        }
+        .footer_bg{
+            30vh;
+            background-color: rgb(20, 17, 39);
+        }
+        .header_bg_top{
+            height: 60vh;
+            background-color: rgba(69, 65, 100,1);
+        }
+        .header_bg_top:hover{
+            background-color: rgba(69, 65, 100,0.1);
+            color: black;
+        }
+        .header_bg_top:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .header_bg_top2{
+            height: 60vh;
+            background-color: RGBa(228,146,138,1);
+        }
+        .header_bg_top2:hover{
+            background-color: rgba(228,146,138,0.1);
+            color: black;
+        }
+        .header_bg_top2:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .header_bg_top3{
+            height: 60vh;
+            background-color: RGBa(212,171,133,1);
+        }
+        .header_bg_top3:hover{
+            background-color: rgba(212,171,133,0.1);
+            color: black;
+        }
+        .header_bg_top3:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .header_bg_top4{
+            height: 60vh;
+            background-color: RGBa(126,151,207,1);
+        }
+        .header_bg_top4:hover{
+            background-color: rgba(126,151,207,0.1);
+            color: black;
+        }
+        .header_bg_top4:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .header_bg_top5{
+            height: 60vh;
+            background-color: rgba(133, 160, 103,1);
+        }
+        .header_bg_top5:hover{
+            background-color: rgba(133, 160, 103,0.1);
+            color: black;
+        }
+        .header_bg_top5:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .header_bg_top6{
+            height: 60vh;
+            background-color: rgba(66, 72, 124,1);
+        }
+        .header_bg_top6:hover{
+            background-color: rgba(66, 72, 124,0.1);
+            color: black;
+        }
+        .header_bg_top6:hover .hr-box{
+            border-top: 1px solid rgb(0, 0, 0);
+        }
+        .small_inl{
+            display: inline;
+        }
+        .hr-box{
+            width: 100vh;
+            border-top: 1px solid rgb(255, 255, 255);
+        }
+        .hr-top{
+            width: 30vh;
+        }
+        .md-img-top{
+            height: 60vh;
+            max-width: 100%;
+            background-image: url('../images/small1.jpeg'); 
+            background-position: center center;
+            background-attachment:local;
+            background-repeat: no-repeat;
+            background-size:cover;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .md-img-top2{
+            background-image: url('../images/small2.jpeg'); 
+        }
+        .md-img-top3{
+            background-image: url('../images/small3.jpeg'); 
+        }
+        .md-img-top4{
+            background-image: url('../images/small4.jpeg'); 
+        }
+        .md-img-top5{
+            background-image: url('../images/small5.jpeg'); 
+        }
+        .md-img-top6{
+            background-image: url('../images/small6.jpeg'); 
+        }
